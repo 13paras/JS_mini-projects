@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggleButton {
+    background-color: #4D4D4D;
+}
+
+.toggleButton.active {
+    background-color: #18D65F;
+}
+
+.toggleButton .toggle-dot {
+    background-color: #FFF;
+}
+
+.toggleButton.active .toggle-dot {
+    transform: translateX(100%);
+}
+
